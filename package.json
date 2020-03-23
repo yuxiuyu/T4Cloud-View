@@ -1,6 +1,6 @@
 {
   "name": "t4cloud-view",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "T4Cloud的工具类",
   "main": "index.js",
   "scripts": {
