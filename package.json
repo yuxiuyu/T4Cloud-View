@@ -1,0 +1,19 @@
+{
+  "name": "t4cloud-view",
+  "version": "1.0.0",
+  "description": "T4Cloud的工具类",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuxiuyu/T4Cloud-View.git"
+  },
+  "author": "yxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuxiuyu/T4Cloud-View/issues"
+  },
+  "homepage": "https://github.com/yuxiuyu/T4Cloud-View#readme"
+}
