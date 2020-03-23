@@ -1,2 +1,3 @@
-const array = require('./lib/arrayUtil');
-Object.assign(module.exports, array)
+// const array = require('./lib/arrayUtil');
+const valite = require('./lib/validate');
+Object.assign(module.exports, valite)
