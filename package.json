@@ -1,10 +1,11 @@
 {
   "name": "t4cloud-view",
-  "version": "1.0.4",
+  "version": "1.0.16",
   "description": "T4Cloud的工具类",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive",
+    "examples": "open ./examples/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/yuxiuyu/T4Cloud-View/issues"
   },
-  "homepage": "https://github.com/yuxiuyu/T4Cloud-View#readme"
+  "homepage": "https://github.com/yuxiuyu/T4Cloud-View#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }

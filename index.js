@@ -1,3 +1,3 @@
-// const array = require('./lib/arrayUtil');
-const valite = require('./lib/validate');
-Object.assign(module.exports, valite)
+const app = require('./lib/index');
+console.log(app.uuid.createUUID())
+module.exports = app
